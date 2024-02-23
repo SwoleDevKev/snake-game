@@ -9,13 +9,27 @@ body {
     background-color: black;
 }
 
+
 .snake{
     background-color: aqua;
     border: .25vmin solid black;
+    z-index: 1;
+}
+.head{
+    border-radius: 50%;
+    background-image: url('./SnakeHead.png');
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    
 }
 .food{
     background-color: yellow;
     border: .25vmin solid black;
+}
+.eats{
+    background-color: orange;
 }
 
 #gameBoard{
